@@ -5,7 +5,12 @@ import { PdwFooter } from "@/components/layout/PdwFooter";
 
 export const metadata: Metadata = {
   title: "Portuguese Digital Wallet by TecMinho",
-  description: "Site institucional da Portuguese Digital Wallet alinhado com eIDAS 2.0."
+  description: "Site institucional da Portuguese Digital Wallet alinhado com eIDAS 2.0.",
+  icons: {
+    icon: '/pdw_icon.png',
+    shortcut: '/pdw_icon.png',
+    apple: '/pdw_icon.png',
+  }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

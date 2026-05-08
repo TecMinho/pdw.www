@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Locale } from "@/i18n/config";
 
 interface PdwHeaderProps {
@@ -19,7 +20,10 @@ export function PdwHeader({ lang, dict }: PdwHeaderProps) {
     <header className="site-header">
       <div className="container header-inner">
         <Link className="brand" href={`/${lang}`}>
-          Portuguese Digital Wallet
+          <div className="brand-logo-wrapper">
+            <Image src="/pdw_logo.png" alt="PDW Logo" width={32} height={32} className="brand-logo" />
+            <span>Portuguese Digital Wallet</span>
+          </div>
         </Link>
         <nav className="nav" aria-label="Navegacao principal">
           {navItems.map((item) => (
