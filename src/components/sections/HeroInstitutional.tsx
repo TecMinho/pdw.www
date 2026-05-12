@@ -7,6 +7,8 @@ interface HeroProps {
   dict: any;
 }
 
+const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=pt.tecminho.pdw&pcampaignid=web_share";
+
 export function HeroInstitutional({ lang, dict }: HeroProps) {
   return (
     <section className="hero">
@@ -24,9 +26,18 @@ export function HeroInstitutional({ lang, dict }: HeroProps) {
           <Link href={`/${lang}/casos-de-uso/diplomas-digitais`} className="cta cta-disruptive">
             {dict.hero.ctaDemo}
           </Link>
-          <Link href={`/${lang}/contactos`} className="btn-secondary">
-            {dict.hero.ctaAccess}
-          </Link>
+          <a 
+            href={PLAY_STORE_URL} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="btn-secondary"
+            style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <polygon points="5 3 19 12 5 21 5 3" />
+            </svg>
+            {dict.hero.ctaApp}
+          </a>
         </div>
       </div>
       <div className="hero-image-container">

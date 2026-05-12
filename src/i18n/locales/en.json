@@ -5,7 +5,7 @@
     "solution": "Solution",
     "useCases": "Use Cases",
     "contacts": "Contacts",
-    "cta": "Request Access"
+    "cta": "Get the App"
   },
   "hero": {
     "title": "Frictionless access to digital services.",
@@ -13,33 +13,46 @@
     "description": "PDW is your next-generation tool for using digital credentials (such as diplomas or identification) in real-world services, eliminating forms and repetitive processes.",
     "ctaDemo": "Watch Demo",
     "ctaAccess": "Request Early Access",
+    "ctaApp": "Get the App",
     "image": "/EN/Imagem-home-EN1.png"
   },
   "pillars": {
     "privacy": {
       "title": "Privacy",
+      "icon": "🔒",
       "text": "Your data is processed locally on your device. You decide what you share and with whom."
     },
     "compliance": {
       "title": "European Compliance",
+      "icon": "🇪🇺",
       "text": "Fully aligned with eIDAS 2.0 standards and EBSI infrastructure, ensuring validity across the European Union."
     },
     "education": {
       "title": "Education (Real Case)",
+      "icon": "🎓",
       "text": "We start where the future is formed. PDW already enables academic diploma management with instant verification."
     }
   },
+  "diplomaCase": {
+    "title": "Case: Digital Diplomas",
+    "text": "We transformed academic validation: the university issues your diploma as a digital credential stored in your PDW. When applying for a job, the recruiter verifies authenticity instantly via QR Code, reducing waiting time by 90% and eliminating fraud.",
+    "cta": "Learn more about Digital Diplomas"
+  },
   "trustBar": {
-    "title": "Partner Entities and Compliance",
+    "title": "Ecosystem Partners",
     "partners": [
       "University of Minho",
       "TecMinho",
       "Blockchain.PT Agenda",
       "VOID Software",
-      "eIDAS 2.0",
       "EBSI",
-      "EUDI-ARF"
+      "DAX"
     ]
+  },
+  "videoShowcase": {
+    "badge": "🎬 Demo",
+    "title": "See PDW in action",
+    "subtitle": "Discover how Portugal's digital wallet works in under 2 minutes."
   },
   "useCases": {
     "heading": {
@@ -50,25 +63,53 @@
       "title": "University Diplomas",
       "text": "Issuance and verification of diplomas with selective and instant sharing.",
       "status": "available",
-      "details": "View details"
+      "details": "View details",
+      "icon": "🎓"
     },
     "studentId": {
       "title": "Student Identity",
       "text": "Multi-service student credential for academic ecosystems.",
       "status": "development",
-      "details": "View details"
+      "details": "View details",
+      "icon": "🪪"
     },
     "microCredentials": {
       "title": "Professional Micro-credentials",
       "text": "Validation of skills and continuous learning pathways.",
-      "status": "research",
-      "details": "View details"
+      "status": "development",
+      "details": "View details",
+      "icon": "📜"
+    },
+    "health": {
+      "title": "Decentralized Health",
+      "text": "Take control of your medical history. Share your health data securely and privately with doctors and institutions across Europe.",
+      "status": "development",
+      "details": "View details",
+      "icon": "🏥"
+    },
+    "foodChain": {
+      "title": "Food Traceability",
+      "text": "Verify the origin and quality of what you consume. Track the entire agricultural value chain from production to retail through immutable digital proofs.",
+      "status": "development",
+      "details": "View details",
+      "icon": "🌱"
+    },
+    "realEstate": {
+      "title": "Digital Assets & Real Estate",
+      "text": "Frictionless real estate transactions and asset management. Use your PDW to sign contracts in a legally binding and 100% digital way.",
+      "status": "development",
+      "details": "View details",
+      "icon": "🏠"
     }
   },
   "about": {
     "heading": {
       "title": "About the Project",
       "subtitle": "The Portuguese Digital Wallet (PDW) is the critical national infrastructure for the decentralized economy."
+    },
+    "whatIsPdw": {
+      "title": "What is the Portuguese Digital Wallet?",
+      "text": "PDW is Portugal's \"Credential Execution Layer\", constituting critical national infrastructure for the decentralized economy. The project integrates the Mobilizing Agenda \"Blockchain.PT\" (formally \"Decentralize Portugal with Blockchain\"), a strategic effort funded by the Recovery and Resilience Plan (PRR) and the NextGenerationEU program. Under the global consortium leadership of VOID Software, TecMinho assumes institutional and technical coordination in developing this cutting-edge solution."
     },
     "strategicContext": {
       "title": "Strategic Context",
@@ -84,23 +125,36 @@
     },
     "standards": {
       "title": "Foundations and Technical Standards",
-      "eidas": "eIDAS 2.0: European regulation defining the legal framework for secure cross-border electronic identification.",
-      "ebsi": "EBSI Approved: Compliance with the European Blockchain Services Infrastructure for document verification with full integrity.",
-      "eudi": "EUDI ARF Conformant: Alignment with the Architecture and Reference Framework, ensuring interoperability across the EU."
+      "eidas": "eIDAS 2.0: European regulation defining the legal framework for secure cross-border electronic identification, enabling trustworthy digital interactions between Member States.",
+      "ebsi": "EBSI Approved: Compliance with the European Blockchain Services Infrastructure, serving as the backbone for cross-border document and identity verification with full integrity.",
+      "eudi": "EUDI ARF Conformant: Alignment with the Architecture and Reference Framework, ensuring the Portuguese wallet is technically interoperable with national digital wallets across the European Union."
     },
     "team": {
       "title": "Core Team",
+      "subtitle": "Management, Technical Coordination and Strategy",
       "members": [
-        "Pedro Xavier",
-        "Pedro Pereira",
-        "Diogo Magalhães",
-        "Miguel Marques",
-        "Kim Peiter Jørgensen"
+        { "name": "Pedro Xavier", "role": "Management and Coordination" },
+        { "name": "Pedro Pereira", "role": "Technical Coordination" },
+        { "name": "Diogo Magalhães", "role": "Technical Coordination" },
+        { "name": "Miguel Marques", "role": "Development and Strategy" },
+        { "name": "Kim Peiter Jørgensen", "role": "Strategy" }
+      ]
+    },
+    "partners": {
+      "title": "Strategic Partners",
+      "list": [
+        { "name": "TecMinho", "role": "Wallet Technology Lead", "description": "University of Minho's interface dedicated to knowledge transfer to the market, promoting innovation and entrepreneurship. Founded in 1990." },
+        { "name": "VOID Software", "role": "Blockchain.PT Agenda Lead" },
+        { "name": "INESC-ID", "role": "R&D and Interoperability" },
+        { "name": "INESC TEC", "role": "R&D and Interoperability" },
+        { "name": "IST / IST-ID", "role": "R&D and Interoperability" },
+        { "name": "TICE.PT", "role": "Institutional Partner" },
+        { "name": "University of Minho", "role": "Institutional Partner", "description": "Public higher education institution focused on excellence in education, research and active cooperation with society." }
       ]
     },
     "governance": {
       "title": "Governance Model",
-      "text": "PDW benefits from the governance of the Blockchain.PT Agenda, structured into a deliberative Steering Committee and an operational Executive Committee, ensuring risk mitigation and scientific compliance."
+      "text": "PDW benefits from the governance of the Blockchain.PT Agenda, structured into a deliberative Steering Committee and an operational Executive Committee. This organization ensures continuous risk mitigation, scientific compliance and the delivery of high-quality infrastructure."
     }
   },
   "solution": {
@@ -110,24 +164,43 @@
     },
     "whatIsWallet": {
       "title": "What is a digital wallet?",
-      "text": "A tool that allows citizens to store and manage their digital identities and credentials securely, maintaining full control over who accesses their data."
+      "text": "Your next-generation tool for using digital credentials in real-world services. It works as an \"execution layer\", allowing you to receive, store and present documents instantly."
     },
     "whatAreVCs": {
-      "title": "What are Verifiable Credentials (VCs)?",
-      "text": "They are digital equivalents of physical documents (like diplomas or ID cards) that can be verified instantly and cryptographically without needing to contact the issuer for every verification."
+      "title": "What are Verifiable Credentials?",
+      "text": "Secure digital versions of documents (like diplomas or IDs). They are cryptographically secure, machine-verifiable and guarantee your privacy through methods like selective disclosure — sharing only what is necessary."
     },
     "flow": {
       "title": "How It Works",
-      "step1": "Issuance: The authorized entity (e.g., University) issues the credential to your PDW.",
-      "step2": "Storage: The credential is saved securely and encrypted on your local device.",
-      "step3": "Sharing: You decide what data to share via a QR Code or secure link.",
-      "step4": "Verification: The verifier validates the authenticity of the credential in seconds."
+      "step1": { "label": "Issuance", "text": "The authorized entity (e.g., University) issues the credential to your PDW." },
+      "step2": { "label": "Storage", "text": "The credential is saved securely and encrypted on your local device." },
+      "step3": { "label": "Sharing", "text": "You decide what data to share via a QR Code or secure link." },
+      "step4": { "label": "Verification", "text": "The verifier validates the authenticity of the credential in seconds via EBSI blockchain." }
     },
     "features": {
       "title": "Main Features",
-      "interoperability": "Native Interoperability: Ready for the European Single Market.",
-      "security": "Maximum Security: Local processing and sovereign cryptographic keys.",
-      "privacy": "Privacy by Design: Selective data sharing (Zero Knowledge Proofs)."
+      "interoperability": { "label": "Native Interoperability", "text": "Fully aligned with the European reference framework (EUID Wallet), enabling use across the entire European Union." },
+      "security": { "label": "Maximum Security", "text": "Based on blockchain trust models and private keys stored on your device." },
+      "privacy": { "label": "Privacy by Design", "text": "Data is processed locally. The user is the only one who decides who can access their information." }
+    },
+    "technicalStandards": {
+      "title": "Technical Standards",
+      "w3c": "Compliance with W3C standards for Verifiable Credentials.",
+      "ebsi": "Use of EBSI (European Blockchain Services Infrastructure), the first EU-scale blockchain infrastructure driven by the public sector.",
+      "dids": "Automatic generation of Decentralized Identifiers (DIDs) at the time of wallet creation."
+    },
+    "trustTriangle": {
+      "title": "Trust Ecosystem",
+      "description": "The Triangle of Trust connects the Issuer, the Holder and the Verifier, all linked by the EBSI trust layer.",
+      "image": "/trust-triangle.png"
+    },
+    "flowDiagram": {
+      "image": "/wallet-flow.png",
+      "alt": "Credential flow diagram: Issuance, Storage, Sharing and Verification"
+    },
+    "appMockup": {
+      "image": "/wallet-mockup.png",
+      "alt": "PDW application interface — credential details screen"
     }
   },
   "diplomas": {
@@ -148,6 +221,10 @@
       "time": "90% reduction in verification waiting time.",
       "fraud": "Total elimination of academic document fraud.",
       "cost": "Drastic reduction in administrative costs and paper issuance."
+    },
+    "flowImage": {
+      "image": "/diploma-flow.png",
+      "alt": "Digital diploma verification flow: University issues, Student stores, Recruiter verifies"
     }
   },
   "contacts": {
@@ -156,6 +233,7 @@
       "subtitle": "Want to implement PDW in your institution or participate in the ecosystem?"
     },
     "invite": "Our team of experts is available to discuss pilot programs and institutional integrations.",
+    "afterContact": "After submitting the form, our team will get in touch within 48 hours to schedule a personalized demonstration session.",
     "form": {
       "name": "Name",
       "institution": "Institution",
@@ -170,7 +248,8 @@
     "text": "PDW respects your digital sovereignty. This site only collects data voluntarily submitted for institutional contact purposes. In compliance with GDPR, we guarantee the right of access, rectification, and deletion of your data.",
     "dataCollected": "Collected data: Name, Institution, Email, and Message (form only).",
     "purpose": "Purpose: Responding to information requests and partnerships.",
-    "legalBase": "Legal Basis: User consent."
+    "legalBase": "Legal Basis: User consent.",
+    "contact": "For privacy inquiries: rmagalhaes@tecminho.uminho.pt"
   },
   "terms": {
     "title": "Terms of Use",
@@ -186,6 +265,6 @@
   "status": {
     "available": "Available",
     "development": "In Development",
-    "research": "In Research"
+    "research": "In Development"
   }
 }

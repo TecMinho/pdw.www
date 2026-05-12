@@ -113,47 +113,67 @@ EUDI ARF Conformant:  Alinhamento com o  Architecture and Reference Framework , 
 
 
 Explicação simples de:
-eIDAS 2.0 
-EBSI Approved
-EUDI ARF Conformant
+eIDAS 2.0: O regulamento europeu que assegura que a sua identidade digital PDW tem validade legal e reconhecimento em todos os estados-membros da União Europeia.
+EBSI Approved: Garante que a carteira utiliza a infraestrutura oficial de blockchain da Comissão Europeia (European Blockchain Services Infrastructure) para validar a autenticidade dos seus documentos sem comprometer a sua privacidade.
+EUDI ARF Conformant: Certifica que a PDW segue rigorosamente a arquitetura e o quadro de referência técnica definidos pela UE para a futura Carteira de Identidade Digital Europeia
 🧾 Conteúdos a recolher
-Lista da equipa (nome + função)
-A execução do projeto é assegurada por especialistas de elevada competência técnica e científica, sob uma estrutura de supervisão rigorosa.
-Equipa Core
-Pedro Xavier
-Pedro Pereira
-Diogo Magalhães
-Miguel Marques
-Kim Peiter Jørgensen
-Lista de parceiros
+Lista da Equipa (Exemplos encontrados nas fontes)
+Com base na documentação técnica, os elementos core incluem:
+Gestão e Coordenação Técnica: Pedro Xavier, Pedro Pereira e Diogo Magalhães.
+Desenvolvimento e Estratégia: Miguel Marques e Kim Peiter Jørgensen.
+2. Lista de Parceiros Estratégicos
+A PDW nasce de um consórcio robusto sob a agenda "Descentralizar Portugal com Blockchain":
+Líder Tecnológico da Wallet: TecMinho (Interface da Universidade do Minho).
+Líder da Agenda Blockchain.PT: VOID Software.
+Parceiros de I&D e Interoperabilidade: INESC-ID, INESC TEC, IST e IST-ID .
+Parceiros Institucionais: TICE.PT e Universidade do Minho .
 Descrição institucional (TecMinho / UMinho)
 Modelo de Governação
 A PDW beneficia da governação da Agenda Blockchain.PT, estruturada num  Steering Committee  deliberativo e num  Executive Committee  operacional. Esta organização garante a mitigação contínua de riscos, a conformidade científica e a entrega de uma infraestrutura de alta qualidade.
+TecMinho: Criada em 1990, é a interface da Universidade do Minho dedicada à transferência de conhecimento para o mercado, valorizando a inovação e o empreendedorismo.
+Universidade do Minho (UMinho): Instituição pública de ensino superior focada na excelência da educação, investigação e cooperação ativa com a sociedade
 
 🎨 Conteúdos visuais
-Fotos da equipa (se disponíveis)
-Logos dos parceiros
+Fotos da Equipa: Recomenda-se a utilização de retratos profissionais num ambiente de laboratório tecnológico ou escritório moderno para transmitir confiança e proximidade.
+Logos dos Parceiros: Utilize os logótipos presentes nas tabelas de co-promotores das fontes, garantindo que os selos do PRR e NextGenerationEU estão visíveis para cumprir as regras de financiamento
+Por favor, verifique o separador Estúdio em alguns minutos para aceder ao relatório completo e estruturado para esta secção.
 ⚙️ 3. SOLUÇÃO (COMO FUNCIONA)
 ✍️ Conteúdos a produzir
 Explicação simples:
 o que é uma carteira digital
+É a sua ferramenta de nova geração para utilizar credenciais digitais em serviços do mundo real. Funciona como uma "camada de execução", permitindo-lhe receber, guardar e apresentar documentos de forma instantânea
 o que são credenciais verificáveis
+São versões digitais seguras de documentos (como diplomas ou IDs). São criptograficamente seguras, verificáveis por máquinas e garantem a sua privacidade através de métodos como a divulgação seletiva (partilha apenas do que é necessário)
 Descrição do fluxo:
 emissão
+Uma entidade confiável (ex: Universidade) emite a credencial para o utilizador
 armazenamento
-partilha
+O utilizador guarda a credencial de forma segura na sua PDW, sob o seu controlo total
+Partilha/Autorização: 
+Quando um serviço solicita dados, o utilizador aprova a partilha com um simples clique na app
 verificação
+O verificador valida a autenticidade instantaneamente através da blockchain EBSI, sem necessidade de contactar a entidade que emitiu o documento 
 Lista de características:
 interoperabilidade
+Totalmente alinhada com o quadro de referência europeu (EUID Wallet), permitindo o uso em toda a União Europeia 
 segurança
+Baseada em modelos de confiança de blockchain e chaves privadas armazenadas no seu dispositivo
 privacidade
+Os dados são processados localmente. O utilizador é o único que decide quem pode aceder à sua informação 
 🧾 Conteúdos a recolher
 Confirmação técnica:
 padrões usados (W3C, etc.)
+Conformidade com os standards do W3C para Verifiable Credentials 
 arquitetura (EBSI, se aplicável)
+Utilização da EBSI (European Blockchain Services Infrastructure), a primeira infraestrutura de blockchain à escala da UE conduzida pelo setor público 
+Identificadores: Geração automática de Identificadores Descentralizados (DIDs) no momento da criação da wallet 
+
+
 🎨 Conteúdos visuais
 Diagrama simples:
  👉 Emissor → Utilizador → Verificador
+Diagrama do Ecossistema: Uma imagem que mostre o "Triângulo de Confiança" ligando o Issuer (Emissor), o Holder (Utilizador/Wallet) e o Verifier (Verificador), todos ligados pela camada de confiança da EBSI.
+Interface da App: Mockups reais das janelas de "Autorização de Partilha" e "Detalhes da Credencial" para humanizar a tecnologia.
 
 🎓 4. CASOS DE USO (PÁGINA PRINCIPAL)
 ✍️ Conteúdos a produzir
@@ -167,7 +187,17 @@ Em investigação
 🧾 Conteúdos a recolher
 Confirmação real do estado de cada caso
 Alinhamento com equipa (evitar promessas falsas)
-
+1. Diplomas Digitais (Educação)
+Descrição: O pilar central do nosso MVP. Substitua certificados em papel por credenciais verificáveis emitidas pela sua universidade. Garanta a autenticidade das suas qualificações instantaneamente perante qualquer recrutador.
+Estado: Disponível (MVP).
+2. Saúde Descentralizada (MyHR & BioGHP)
+Descrição: Tome as rédeas do seu histórico clínico. Partilhe os seus dados de saúde de forma segura e privada com médicos e instituições de saúde em toda a Europa, sem burocracia.
+Estado: Em desenvolvimento.
+3. Rastreabilidade Alimentar (Farm-to-Fork)
+Descrição: Verifique a origem e qualidade do que consome. Desde a saúde animal até ao selo de retalho, acompanhe toda a cadeia de valor agrícola através de provas digitais imutáveis.
+Estado: Em desenvolvimento.
+4. Ativos Digitais e Imobiliário (Unlockit)
+Descrição: Transações imobiliárias e gestão de ativos sem fricção. Use a sua PDW para assinar contratos de aluguer ou compra e venda de forma juridicamente vinculativa e 100% digital
 🎓 5. DIPLOMAS DIGITAIS (DETALHE)
 ✍️ Conteúdos a produzir (CRÍTICO)
 Problema atual:
