@@ -32,14 +32,15 @@ export function ChangelogModal({ isOpen, onClose, lang }: ChangelogModalProps) {
 
   const changelogData = [
     {
-      version: "v1.7.0",
+      version: "v1.7.1",
       date: "13/05/2026",
       changes: [
         "Navegação dinâmica com destaque para página ativa (Active Links)",
         "Deteção inteligente de rota na troca de idioma (manutenção da página atual)",
-        "Atualização da identidade visual: Novos logótipos de parceiros e financiadores",
-        "Implementação do Simulador Interativo de Verificação de Credenciais",
-        "Adição do Widget de Acessibilidade e estilos responsivos otimizados"
+        "Refinamento do leitor de vídeo com parâmetros de marca limpa (YouTube Modest Branding)",
+        "Reestruturação visual e interativa da secção de financiadores no rodapé",
+        "Ajustes de densidade visual e dimensões nos cartões de parceiros",
+        "Implementação do Simulador Interativo e Widget de Acessibilidade"
       ]
     },
     {
