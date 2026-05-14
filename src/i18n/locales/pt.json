@@ -41,11 +41,10 @@
   "trustBar": {
     "title": "Parceiros do ecossistema",
     "partners": [
-      "Universidade do Minho",
       "TecMinho",
-      "Agenda Blockchain.PT",
+      "EBSI",
       "VOID Software",
-      "EBSI"
+      "Universidade do Minho"
     ]
   },
   "videoShowcase": {

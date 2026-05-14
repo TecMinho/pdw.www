@@ -55,30 +55,6 @@ export function PdwHeader({ lang, dict }: PdwHeaderProps) {
               </Link>
             );
           })}
-          {/* Version Badge - Remove this block to hide versioning */}
-          <button onClick={() => setIsChangelogOpen(true)} title="Ver atualizações" style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            padding: '2px 8px',
-            backgroundColor: 'rgba(56, 189, 248, 0.1)',
-            color: '#38bdf8',
-            borderRadius: '12px',
-            fontSize: '11px',
-            fontWeight: 600,
-            marginLeft: '8px',
-            border: '1px solid rgba(56, 189, 248, 0.2)',
-            textDecoration: 'none',
-            transition: 'all 0.2s ease',
-            cursor: 'pointer'
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.backgroundColor = 'rgba(56, 189, 248, 0.2)';
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.backgroundColor = 'rgba(56, 189, 248, 0.1)';
-          }}>
-            v1.7.1
-          </button>
         </nav>
 
         {/* Right actions */}
@@ -173,12 +149,6 @@ export function PdwHeader({ lang, dict }: PdwHeaderProps) {
           </nav>
         </div>
       )}
-
-      <ChangelogModal 
-        isOpen={isChangelogOpen} 
-        onClose={() => setIsChangelogOpen(false)} 
-        lang={lang} 
-      />
     </header>
   );
 }

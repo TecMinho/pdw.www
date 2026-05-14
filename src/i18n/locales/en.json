@@ -41,11 +41,10 @@
   "trustBar": {
     "title": "Ecosystem Partners",
     "partners": [
-      "University of Minho",
       "TecMinho",
-      "Blockchain.PT Agenda",
+      "EBSI",
       "VOID Software",
-      "EBSI"
+      "University of Minho"
     ]
   },
   "videoShowcase": {
