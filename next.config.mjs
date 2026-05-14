@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  deploymentId: "1.0.0",
   reactStrictMode: true,
   experimental: {
     // Outras opções experimentais se houver

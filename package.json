@@ -1,11 +1,11 @@
 {
-  "name": "pdw-site-v1",
-  "version": "0.1.0",
+  "name": "pdw.www",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production PORT=8080 next start",
     "lint": "next lint"
   },
   "dependencies": {
